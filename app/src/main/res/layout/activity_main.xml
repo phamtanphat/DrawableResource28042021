@@ -25,24 +25,29 @@
 <!--        android:thumb="@null"-->
 <!--        app:track="@null" />-->
     <RadioGroup
+        android:background="@drawable/bg_pink_out_line"
         android:orientation="horizontal"
         android:layout_width="250dp"
-        android:layout_height="wrap_content">
+        android:layout_height="40dp">
         <RadioButton
+            android:background="@drawable/bg_toggle_radio"
+            android:textColor="@color/white"
             android:button="@null"
             android:gravity="center"
             android:layout_weight="1"
             android:textSize="20sp"
             android:text="Search"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="match_parent"/>
         <RadioButton
+            android:background="@drawable/bg_toggle_radio"
+            android:textColor="@color/white"
             android:button="@null"
             android:gravity="center"
             android:layout_weight="1"
             android:textSize="20sp"
             android:text="Offer"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="match_parent"/>
     </RadioGroup>
 </LinearLayout>
