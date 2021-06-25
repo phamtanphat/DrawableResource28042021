@@ -8,46 +8,15 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
-    <!--    <Button-->
-    <!--        android:background="@drawable/bg_button_press"-->
-    <!--        android:id="@+id/buttonClick"-->
-    <!--        android:layout_centerInParent="true"-->
-    <!--        android:text="Click"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"/>-->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/bg_drawable_progressbar"
+        android:background="@drawable/bg_circle_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:progress="70" />
 
-<!--    <androidx.appcompat.widget.SwitchCompat-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_centerInParent="true"-->
-<!--        android:background="@null"-->
-<!--        android:button="@drawable/bg_toggle_mode"-->
-<!--        android:thumb="@null"-->
-<!--        app:track="@null" />-->
-    <RadioGroup
-        android:background="@drawable/bg_pink_out_line"
-        android:orientation="horizontal"
-        android:layout_width="250dp"
-        android:layout_height="40dp">
-        <RadioButton
-            android:background="@drawable/bg_toggle_radio"
-            android:textColor="@color/white"
-            android:button="@null"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:textSize="20sp"
-            android:text="Search"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"/>
-        <RadioButton
-            android:background="@drawable/bg_toggle_radio"
-            android:textColor="@color/white"
-            android:button="@null"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:textSize="20sp"
-            android:text="Offer"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"/>
-    </RadioGroup>
 </LinearLayout>
